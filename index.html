@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+        header{
+             height:70px;
+             background-color:rgba(0, 0,0, 0.6);
+             color:white;
+             align-items: center;
+             
+        }
+        .header-middle span{
+            margin-right: 5px;
+            padding:10px;
+            
+        }
+        .header-middle span:hover{
+            color:rgb(235, 169, 47);
+        }
+        .header-middle button{
+            border-radius: 20px;
+            color:white;
+            padding:7px;
+          
+        }
+        .header-right span{
+            margin-right: 5px;
+            padding:10px;
+            font-size:18px;
+            
+        }
+        .container-fluid{
+           height: 250px;
+        }
+       
+       body{
+        background-image:url("/public/bg3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+       }
+      
+      
+       .shades{
+        background-color: rgba(0, 0, 0, 0.5);
+        height:700px;
+       }
+       .imag{
+        background-image: url(/public/m5.png); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:600px;
+         margin-top: -50px;
+
+     }
+       .shadesss{
+        background-color: rgba(0, 0, 0, 0.5);
+        height:600px;
+       
+       }
+     .imagbox{
+      background-image: url(/public/bg2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:600px;
+      margin-top: -50px;
+
+       }
+          .text{
+        text-align: center;
+        align-items: center;
+         width:800px;
+        justify-content: center;
+        height:500px;
+        margin-top: 120px;
+        margin-left: 230px;
+        color:white;
+        padding:10px;
+        font-size: 18px;
+
+      }
+      .text button{
+        border-radius: 30px;
+        padding:10px;
+        padding-left:20px;
+        padding-right:20px;
+        margin:10px;
+        border:2px solid orange;
+        margin-right: 20px;
+      }
+      .text a{
+        text-decoration: none;
+      }
+      .text button:hover{
+        background-color: rgb(241, 193, 104);
+      }
+      .text a:hover{
+        color:white;
+      }
+      .text h2{
+        margin-bottom: 10px;
+      }
+      .text p{
+        padding:15px;
+        margin-bottom: 10px;
+        font-size: 19px;
+      }
+      
+      
+     #About{
+        height:400px;
+        display: grid;
+        grid-template-columns: 4fr 8fr;
+        padding:10px;
+        margin-top: 80px;
+        margin-bottom: 190px;
+        
+     }
+     .about-details p{
+        font-size: 18px;
+        padding:5px;
+     }
+     .about-details{
+        padding:10x;
+        margin: 20px;
+     }
+     .about-img{
+        box-shadow: 2px 2px 2px gray;
+        margin-right: 10px;
+     }
+    .aboutsinfo{
+      height:400px;
+      margin-bottom: 20px;
+    }
+    .about-heading{
+      
+      height:120px;
+      margin-bottom: 2px;
+    }
+    .about-heading span{
+      color:orange;
+      font-size: 35px;
+      font-weight: bold;
+     }
+     .about-heading h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 50px;
+    
+     }
+     .about-heading p{
+      text-align: center;
+     }
+    
+     .about-body{
+      display: grid;
+      grid-template-columns: 4fr 4fr 4fr;
+      height:300px;
+      margin-left: 60px;
+     }
+     .part1{
+      grid-template-columns: 4fr;
+      width: 300px;
+      height: 250px;
+      padding:10px;
+      border: 2px solid gray;
+      box-shadow: 2px 2px 2px gray;
+     }
+     .part1 h1{
+      color:orange;
+     }
+     .part1 h5{
+      color:black;
+     }
+     .part1 p{
+      color:gray;
+      font-size: 18px;
+     }
+     
+    .part1:hover{
+      background-color: orange;
+      color:white;
+      
+     }
+     .part1 h1:hover{
+      background-color: orange;
+      color:white;
+      }
+      .part1 h5:hover{
+      background-color: orange;
+      color:white;
+      }
+      .part1 p:hover{
+      background-color: orange;
+      color:white;
+      }
+     #menu{
+      height:520px;
+      margin-bottom: 30px;
+     }
+     .menu-heading{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     .menu-heading span{
+      color:orange;
+     }
+     .menu-buttons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+     
+     }
+     .menu-buttons span{
+      margin-right: 15px;
+      padding:7px;
+     }
+     .menu-buttons button{
+      border:2px solid orange;
+      padding:7px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin:7px;
+      color:black;
+    
+      border-radius: 20px;
+     }
+     .menu-buttons button:hover{
+      color: white;
+      background-color: orange;
+     }
+     #menu-details{
+      display: grid;
+      grid-template-columns: 6fr 6fr;
+      height:400px;
+     }
+     #menu-details1{
+      display: grid;
+      grid-template-columns: 6fr 6fr;
+      height:400px;
+     }
+     #menu-details2{
+      display: grid;
+      grid-template-columns: 6fr 6fr;
+      height:400px;
+     }
+     #menu-details3{
+      display: grid;
+      grid-template-columns: 6fr 6fr;
+      height:400px;
+     }
+     .menu-info{
+      display: grid;
+      grid-template-columns: 6fr;
+      text-align: center;
+      padding:15px;
+      margin: 10px;
+      width: 600px;
+      margin-top:-5px;
+
+     }
+     .menu-item{
+      color:orange;
+      padding:10px;
+      font-size: 18px;
+      font-weight: bold;
+     }
+     .menu-price{
+      font-weight: bold;
+      font-size: 18px;
+      color:black;
+     }
+     .menu-info1{
+      display: grid;
+      grid-template-columns: 6fr;
+      text-align: center;
+      padding:15px;
+      margin: 10px;
+      width: 600px;
+      margin-top: -3px;
+ }
+ .menu-info p{
+  text-align: left;
+  margin-left:70px;
+  font-size: 17px;
+ }
+ .menu-info1 p{
+  text-align: left;
+  margin-left:70px;
+  font-size: 17px;
+ }
+ .menu-buttons a{
+  text-decoration: none;
+ }
+ .menu-buttons a:hover{
+  color:white;
+ }
+ .starters{
+  margin-top: -400px;
+ }
+
+ #Special{
+      height:500px;
+      margin-bottom: 120px;
+      margin-top: 40px;
+    }
+    .special-heading{
+      
+      height:120px;
+      margin-bottom: 2px;
+    }
+    .special-heading span{
+      color:orange;
+      font-size: 35px;
+      font-weight: bold;
+      margin-left: 15px;
+     }
+     .special-heading h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 50px;
+    
+     }
+     .special-heading p{
+      text-align: center;
+     }
+     .special-body{
+      display: grid;
+      grid-template-columns: 3fr 6.5fr;
+      height:270px;
+     }
+   .special-left{
+    color:black;
+    margin: 10px;
+    padding:10px;
+ }
+ .special-left button{
+  border: 1px solid orange;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+  padding:7px;
+  margin: 17px;
+ }
+ .special-left button:hover{
+  border: 1px solid gray;
+  background-color: orange;
+  color:white;
+ 
+ }
+ 
+ .special-middle{
+   display: grid;
+   grid-template-columns: 6.5fr;
+   height: 300px;
+   margin-right: 70px;
+ }
+ .special-middle h1{
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+  color:black;
+  margin-bottom: 10px;
+  padding:10px;
+ }
+ .special-right{
+  display: flex;
+  justify-content: center;
+       align-items: center;
+       border-radius: 3px;
+       
+ }
+ .special-right img{
+  border-radius: 40px;
+  border:2px solid gray;
+  padding:2px;
+  height:200px;
+  width:350px;
+ }
+ #Events{
+  height:500px;
+  background-image: url("/public/bg2.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+ }
+
+.shades1{
+  background-color: rgba(0,0,0,0.7);
+  height:500px;
+  color:white;
+}
+.event-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+.event-heading span{
+  color:orange;
+}
+.event-heading h2{
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: italic;
+  padding:10px;
+}
+.event-body{
+
+  height:400px;
+}
+.events-info{
+  display: flex;
+  justify-content: space-between;
+}
+.images{
+  margin-left: 80px;
+  width:700px;
+  align-items: center;
+}
+.img-details{
+  margin-left: -80px;
+  width:700px;
+}
+.img-details h3{
+  color:orange;
+  font-size: Italic;
+  font-weight: bold;
+  font-size: 24px;
+  padding:10px;
+  margin:6px;
+}
+.img-details h5{
+  color:white;
+  font-size: 24px;
+  padding:10px;
+  margin:6px;
+  font-weight: bold;
+}
+.img-details u{
+  color:gray;
+  font-weight: bold;
+}
+.img-details p{
+  font-size: 18px;
+  padding:10px;
+  margin:6px;
+  color:white;
+}
+#book-a-table{
+  height:500px;
+  border:1px solid gray;
+  box-shadow: 2px 2px 2px gray;
+  margin-bottom: 40px;
+}
+.book-heading{
+  height:100px;
+
+}
+.book-heading h2{
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 30px;
+     
+}
+
+.book-heading span{
+  color:orange;
+ 
+
+}
+.book-heading p{
+  font-size: 20px;
+  padding:10px;
+  margin:5px;
+  text-align: center;
+}
+.book-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:470px;
+ 
+}
+form{
+  margin-left: 200px;
+  height:500px;
+  width:990px;
+  border:1px solid gray;
+  box-shadow: 5px 5px 5px rgb(125, 125, 184);
+  
+}
+.book-details{
+  display: flex;
+  justify-content: space-around;
+  width:900px;
+}
+.book-details span{
+  margin: 20px;
+}
+.book-msg{
+  text-align: center;
+  margin-left: -30px;
+  
+}
+.book-button{
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding:3px;
+}
+#Gallery{
+  height:500px;
+  margin-bottom: 170px;
+}
+.gallery-heading{
+  height:100px;
+  margin-top: 50px;
+  margin-bottom: 6px;
+}
+.gallery-heading h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 35px;
+}
+.gallery-heading span{
+  color:orange;
+  margin-left: 5px;
+}
+.gallery-heading p{
+  text-align: center;
+  font-size: 20px;
+ 
+}
+.gallery-body{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+.gallery-body img{
+  margin: 10px;
+
+}
+#chefs{
+  height:430px;
+
+
+
+}
+.chefs-heading{
+  height:100px;
+  margin-bottom: 30px;
+}
+.chefs-heading h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+}
+.chefs-heading p{
+  text-align: center;
+  font-size: 20px;
+}
+.chefs-heading span{
+  color:orange;
+  margin-left: 5px;
+}
+.chefs-body{
+  height:450px;
+  margin-left: 50px;
+  
+}
+.chef-details{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  height:180px;
+}
+.chefsss{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  height:100px;
+  margin-left: 40px;
+  
+}
+.chef-info{
+  height:180px;
+  margin-left: 30px;
+  width:230px;
+  margin-top: -20px;
+  color:rgb(228, 19, 123);
+  border:2px solid gray;
+  box-shadow: 5px 5px 5px gray;
+}
+.chef-details img{
+  border:2px solid white;
+}
+.chef-info hr{
+  width:90px;
+  height:20px;
+  color:rgb(240, 22, 58);
+  margin-left: 80px;
+  font-weight: bold;
+  
+}
+.chef-info h1{
+  font-size: 22px;
+  text-align: center;
+
+}
+.chef-info p{
+  font-size: 18px;
+  padding:7px;
+  text-align: center;
+}
+.chef-info span{
+  margin-right: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+.extra{
+  background-image: url(/public/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:400px;
+  margin-bottom: 50px;
+}
+.shadeness{
+  background-color: rgba(0,0,0,0.4);
+  height:430px;
+}
+#extra-details{
+   text-align: center;
+ color:white;
+  height:400px;
+  margin-top: 10px;
+ 
+  }
+  #extra-details span{
+    color:orange;
+  }
+  #extra-details img{
+    border-radius: 90px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+  }
+  #extra-details h1,h6,p{
+    margin-bottom: 15px;
+  }
+  #Contact{
+    height:700px;
+    margin-bottom: 40px;
+  }
+  .contact-heading{
+ height: 100px;
+  }
+  .contact-heading h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-heading span{
+    color:orange;
+    margin-left: 5px;
+  }
+  .contact-heading p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .contact-body{
+    height:650px;
+  }
+
+  .contact-img{
+    height:200px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  form{
+    height:430px;
+  }
+  .contact-info{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    height:70px;
+    margin-left:20px;
+  }
+  .contact-info span{
+    color:orange;
+    font-size: 15px;
+  }
+  .contact-info h6{
+    color:gray;
+  }
+ 
+
+  .contact-name{
+    display:grid;
+    grid-template-columns: 4fr 4fr;
+    margin-bottom: 10px;
+    padding:30px;
+
+  }
+  .contact-name span{
+    margin-right: 20px;
+  }
+  .contact-subject{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+   
+  }
+  .contact-msg{
+    margin-left: 30px;
+    margin-bottom: 2px;
+  }
+  .contact-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 60px;
+    padding:2px;
+  }
+footer{
+  background-color: black;
+  color:white;
+  text-align: center;
+  height:200px;
+  font-size: 18px;
+  margin-top: 50px;
+}
+footer h1{
+  color:orange;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+
+}
+footer span{
+  color:orange;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+</style>
+</head>
+<body>
+    <header class="d-flex justify-content-between mt-2">
+        <div class="header-left">
+           <font size="6" color="red">D</font>
+           <font size="5" color="red">e</font>
+           <font size="5" color="red">l</font>
+           <font size="4" color="red">i</font>
+           <font size="3" color="red">c</font>
+           <font size="4" color="red">i</font>
+           <font size="5" color="red">o</font>
+           <font size="5" color="red">u</font>
+           <font size="6" color="red">s</font>
+        
+        </div>
+        <div class="header-middle ">
+            <span><a href="#home">home</a></span>
+            <span><a href="#About">About</a></span>
+            <span><a href="#Menu">Menu</a></span>
+            <span><a href="#Special">Special</a></span>
+            <span><a href="#Events">Events</a></span>
+            <span><a href="#Chefs">Chefs</a></span>
+            <span><a href="#Gallery">Gallery</a></span>
+            <span><a href="#Contact">Contact</a></span>
+            <span><button class="btn btn-warning"><a href="#Book-a-table">Book a table</a></button></span>
+        </div>
+        <div class="header-right">
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-whatsapp"></span>
+            <span class="bi bi-instagram"></span>
+        </div>
+
+    </header>
+    <section>
+        <main > 
+           <div class="shades">
+               <div id="home">
+               <div class="container-fluid">
+                <div class="carousel slide carousel-dark" id="banner" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                           <div class="text">
+                            <h2>Delicious Restaurant</h2>
+                            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <span ><button><a href="#Menu">Our Menu</a></button></span>
+                            <span ><button><a href="#Book-a-table">Book a table</a></button></span>
+                        </div>
+                       </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                           <div class="imag">
+                               <div class="shadesss">
+                                <div class="text">
+                                  <h2>Delicious Restaurant</h2>
+                                  <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                  <span ><button><a href="#Menu">Our Menu</a></button></span>
+                                  <span ><button><a href="#Book-a-table">Book a table</a></button></span>
+                              </div>
+                             </div>
+                            </div>
+                           </div>
+                           <div class="carousel-item" data-bs-interval="2000">
+                            <div class="imagbox">
+                                <div class="shadesss">
+                                 <div class="text">
+                                   <h2>Delicious Restaurant</h2>
+                                   <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                   <span ><button><a href="#Menu">Our Menu</a></button></span>
+                                   <span ><button><a href="#Book-a-table">Book a table</a></button></span>
+                               </div>
+                              </div>
+                             </div>
+                            </div>
+
+                        </div>
+                        </div>
+                    <div>
+                    <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                 <button class="active" data-bs-slide-to="0" data-bs-target="#banner"></button>
+                 <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+                 <button  data-bs-slide-to="2" data-bs-target="#banner"></button>
+                </div>
+             </div>
+            </div>
+            </div>
+        
+
+
+       <div id="About">
+           <div class="about-img">
+              <img src="/public/p1.jpg" width="500" height="450">
+           </div>
+           <div class="about-details">
+            <h4>Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi accusamus maiores, recusandae officia blanditiis quos qui culpa esse quia nesciunt repellat iure ipsum voluptatem a vero numquam? Fugit, modi autem.</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+             <ul>
+             <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+             <li> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                </li>
+                </ul>
+              </p>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+           </div>
+           </div>
+      <div class="aboutsinfo">
+        <div class="about-heading">
+       <h1 >Why choose <span class="ms-2">Our Restaurant</span></h1>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      </div>
+      <div class="about-body">
+        <div class="part1">
+          <h1>01</h1>
+          <h5>Lorem Ipsum</h5>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+        </div>
+        <div class="part1">
+          <h1>02</h1>
+          <h5>Repellat Nihil</h5>
+          <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest
+
+          </p>
+        </div>
+        <div class="part1">
+          <h1>03</h1>
+          <h5>Ad ad velit qui</h5>
+          <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+        </div>
+      </div>
+      </div>
+      </div>
+     
+
+<div id="Menu">
+  <div class="menu-heading">
+    <h1>Check our tasty <span>Menu</span> </h1>
+  </div>
+  <div class="menu-buttons">
+    <span><button class="btn btn-warning " data-bs-toggle="collapse" data-bs-target="#menu-details">Show All</button></span>
+    <span><button data-bs-toggle="collapse" data-bs-target="#menu-details1">Starters</button></span>
+    <span><button data-bs-toggle="collapse" data-bs-target="#menu-details2">Salads</button></span>
+    <span><button data-bs-toggle="collapse" data-bs-target="#menu-details3">Specialty</button></span>
+  </div>
+  <div id="menus" class="accordion" >
+    <div class="accordion-item">
+    <div class="accordion-header" >
+      
+      </div>
+      <div class="accordion-collapse collapse show fade" id="menu-details" data-bs-parent="#menus">
+        <div class="accordion-body">
+          <div class="menu-info">
+      <div>
+      <span class="menu-item">Lobster Bisque</span><span>...................................................................</span><span class="menu-price">$5.95</span>
+      <p>Lorem, deren, trataro, filede, nerada</p>
+    </div>
+    <div>
+      <span class="menu-item" >Crab Cake</span><span>.......................................................................</span><span  class="menu-price">$7.95</span>
+      <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+    </div>
+    <div>
+      <span class="menu-item">Tuscan Grilled</span><span>...................................................................</span><span  class="menu-price">$9.95</span>
+      <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+    </div>
+    <div>
+      <span class="menu-item">Greek Salad</span><span>...................................................................</span><span  class="menu-price">$5.95</span>
+      <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+    </div>
+    <div>
+      <span class="menu-item">Lobster Roll</span><span>...................................................................</span><span  class="menu-price">$12.95</span>
+      <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+    </div>
+   </div>
+   </div>
+   <div class="accordion-body">
+   <div class="menu-info1">
+    <div>
+      <span class="menu-item">Bread barrel</span><span>.......................................................................</span><span  class="menu-price">$5.95</span>
+      <p>Lorem, deren, trataro, filede, nerada</p>
+    </div>
+    <div>
+      <span class="menu-item">Caesar Selections</span><span>...................................................................</span><span  class="menu-price">$8.95</span>
+      <p>Lorem, deren, trataro, filede, nerada</p>
+    </div>
+    <div>
+      <span class="menu-item">Mozzarella Stick</span><span>...................................................................</span><span  class="menu-price">$9.95</span>
+      <p>Lorem, deren, trataro, filede, nerada</p>
+    </div>
+    <div>
+      <span class="menu-item">Spinach Salad</span><span>.......................................................................</span><span  class="menu-price">$4.95</span>
+      <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+    </div>
+    </div>
+    </div>
+   </div>
+
+
+
+
+
+
+<div class="starters">
+<div class="accordion-item ">
+  <div class="accordion-header" >
+    
+   </div>
+    <div class="accordion-collapse collapse hide fade" id="menu-details1" data-bs-parent="#menus">
+  <div class="accordion-body">
+<div class="menu-info">
+  <div>
+    <span class="menu-item">Lobster Bisque</span><span>...................................................................</span><span class="menu-price">$5.95</span>
+    <p>Lorem, deren, trataro, filede, nerada</p>
+  </div>
+  <div>
+    <span class="menu-item" >Crab Cake</span><span>.......................................................................</span><span  class="menu-price">$7.95</span>
+    <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+  </div>
+  </div>
+  </div>
+  <div class="accordion-body">
+    <div class="menu-info1">
+      <div>
+        <span class="menu-item">Tuscan Grilled</span><span>...................................................................</span><span  class="menu-price">$9.95</span>
+        <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+</div>
+
+
+
+<div class="starters">
+  <div class="accordion-item ">
+    <div class="accordion-header" >
+      
+     </div>
+      <div class="accordion-collapse collapse hide fade" id="menu-details2" data-bs-parent="#menus">
+    <div class="accordion-body">
+  <div class="menu-info">
+    <div>
+      <span class="menu-item">Caesar Selections</span><span>...................................................................</span><span class="menu-price">$5.95</span>
+      <p>Lorem, deren, trataro, filede, nerada</p>
+    </div>
+    <div>
+      <span class="menu-item" >Spinach Salad</span><span>.......................................................................</span><span  class="menu-price">$9.95</span>
+      <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+    </div>
+    </div>
+    </div>
+    <div class="accordion-body">
+      <div class="menu-info1">
+        <div>
+          <span class="menu-item">Greek Salad</span><span>...................................................................</span><span  class="menu-price">$9.95</span>
+          <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+  </div>
+ 
+
+
+  <div class="starters">
+    <div class="accordion-item ">
+      <div class="accordion-header" >
+        
+       </div>
+        <div class="accordion-collapse collapse hide fade" id="menu-details3" data-bs-parent="#menus">
+      <div class="accordion-body">
+    <div class="menu-info">
+      <div>
+        <span class="menu-item">Bread barrel</span><span>...................................................................</span><span class="menu-price">$6.95</span>
+        <p>Lorem, deren, trataro, filede, nerada</p>
+      </div>
+      <div>
+        <span class="menu-item" >Lobster Roll</span><span>.......................................................................</span><span  class="menu-price">$7.95</span>
+        <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-body">
+        <div class="menu-info1">
+          <div>
+            <span class="menu-item">Tuscan Grilled</span><span>...................................................................</span><span  class="menu-price">$9.95</span>
+            <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+          </div>
+        </div>
+      </div>
+     </div>
+     </div>
+     </div>
+    
+    
+
+</div>
+</div>
+
+
+
+  
+<div id="Special">
+  <div class="special-heading">
+    <h1>Check our  <span>Specials</span> </h1>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+</div>
+<div class="special-body">
+  <div class="special-left">
+   <div><button data-bs-target="#special1" data-bs-toggle="collapse">Modi sit est</button></div>
+    <div><button data-bs-target="#special2" data-bs-toggle="collapse">Unde praesentium sed</button></div>
+    <div><button data-bs-target="#special3" data-bs-toggle="collapse">Pariatur explicabo ved</button></div>
+    <div><button data-bs-target="#special4" data-bs-toggle="collapse">Nostrum qui quasi</button></div>
+    <div><button data-bs-target="#special5" data-bs-toggle="collapse">Iusto ut expedita aut</button></div>
+</div>
+  <div class="special-middle">
+    <div class="accordion" id="specials">
+    <div class="accordion-item">
+      <div class="accordion-header">
+      </div>
+      <div class="accordion-collapse collapse show" id="special1" data-bs-parent="#specials">
+      <div class="accordion-body">
+      <div>
+        <h1>Architecto ut aperiam autem id</h1>
+        <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+        <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+      </div>
+      </div>
+      <div class="special-right">
+        <img src="/public/bg3.jpg" height="200" width="250">
+      </div>
+      </div>
+    </div>
+      
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+        </div>
+        <div class="accordion-collapse collapse hide" id="special2" data-bs-parent="#specials">
+        <div class="accordion-body">
+        <div>
+        <h1>Et blanditiis nemo veritatis excepturi</h1>
+        <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+        <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+      </div>
+     </div>
+     <div class="special-right">
+      <img src="/public/m1.png" height="200" width="250">
+    </div>
+    </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+      </div>
+      <div class="accordion-collapse collapse hide" id="special3" data-bs-parent="#specials">
+      <div class="accordion-body">
+      <div>
+      <h1>Impedit facilis occaecati odio neque aperiam sit</h1>
+      <p>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+      <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+    </div>
+   </div>
+   <div class="special-right">
+    <img src="/public/m2.png" height="200" width="250">
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="accordion-item">
+    <div class="accordion-header">
+    </div>
+    <div class="accordion-collapse collapse hide" id="special4" data-bs-parent="#specials">
+    <div class="accordion-body">
+    <div>
+    <h1>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h1>
+    <p>Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+    <p> Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+    </div>
+ </div>
+ <div class="special-right">
+  <img src="/public/m3.png" height="200" width="250">
+ </div>
+</div>
+</div>
+
+
+<div class="accordion-item">
+  <div class="accordion-header">
+  </div>
+  <div class="accordion-collapse collapse hide" id="special5" data-bs-parent="#specials">
+  <div class="accordion-body">
+  <div>
+  <h1>Est eveniet ipsam sindera pad rone matrelat sando reda</h1>
+  <p>Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+  <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+  </div>
+</div>
+<div class="special-right">
+  <img src="/public/m4.png" height="200" width="250">
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div id="Events">
+  <div class="shades1">
+          <div class="event-heading">
+            <h2>Organize your <span> Events</span> in our Restaurant</h2>
+          </div>
+          <div class="event-body container-fluid ">
+            <div class="carousel slide carousel-dark" id="eventscarousel" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                  <div class="events-info">
+                  <div class="images">
+                    <img src="/public/m5.png" height="350" width="420">
+                  </div>
+                  <div class="img-details">
+                    <h3>Custom Parties</h3>
+                    <h5><u>$99</u></h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nemo architecto, veritatis minus sed cumque, nostrum perferendis commodi accusamus ullam pariatur earum hic voluptates sint aliquid fugit explicabo expedita rerum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus maxime perspiciatis rerum facere impedit magni corrupti amet, est minima repudiandae eaque quis quidem odio voluptatem sit tempora quae? Provident, consectetur! Nostrum provident, ab porro mollitia nulla quaerat nam facere?</p>
+                  </div>
+                  </div>
+                  </div>
+
+                  <div class="carousel-item " data-bs-interval="1000">
+                  <div class="events-info">
+                    <div class="images">
+                      <img src="/public/m6.png" height="350" width="420">
+                    </div>
+                    <div class="img-details">
+                      <h3>Birthday Parties</h3>
+                      <h5><u>$189</u></h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nemo architecto, veritatis minus sed cumque, nostrum perferendis commodi accusamus ullam pariatur earum hic voluptates sint aliquid fugit explicabo expedita rerum.</p>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus maxime perspiciatis rerum facere impedit magni corrupti amet, est minima repudiandae eaque quis quidem odio voluptatem sit tempora quae? Provident, consectetur! Nostrum provident, ab porro mollitia nulla quaerat nam facere?</p>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="carousel-item " data-bs-interval="1000">
+                      <div class="events-info">
+                        <div class="images">
+                          <img src="/public/m7.png" height="350" width="420">
+                        </div>
+                        <div class="img-details">
+                          <h3>Private Parties</h3>
+                          <h5><u>$299</u></h5>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nemo architecto, veritatis minus sed cumque, nostrum perferendis commodi accusamus ullam pariatur earum hic voluptates sint aliquid fugit explicabo expedita rerum.</p>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus maxime perspiciatis rerum facere impedit magni corrupti amet, est minima repudiandae eaque quis quidem odio voluptatem sit tempora quae? Provident, consectetur! Nostrum provident, ab porro mollitia nulla quaerat nam facere?</p>
+                        </div>
+                        </div>
+                        </div>
+
+                </div>
+            </div>
+       </div>
+   </div>
+</div>
+
+
+
+<div id="Book-a-table">
+  <div class="book-heading">
+    <h2>Book a <span> Table</span></h2>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+  </div>
+  <div class="boook-body">
+  <form>
+    <div class="book-info">
+    <div class="book-details">
+      <span><input type="text" value="Your name" class="form-control form-control-lg" name="username"></span>
+      <span><input type="text" value="Your Email" class="form-control form-control-lg"></span>
+      <span><input type="text" value="Your Phone" class="form-control form-control-lg"></span>
+    </div>
+    <div class="book-details">
+      <span><input type="text" value="Date"  class="form-control  form-control-lg"></span>
+      <span><input type="text" value="Time"  class="form-control  form-control-lg"></span>
+      <span><input type="text"  value="#of people" class="form-control form-control-lg "></span>
+   </div>
+</div>
+    <div class="book-msg">
+      <textarea rows="7" cols="100" >
+              Message
+      </textarea>
+      </div>
+    <div class="book-button">
+      <button class="btn btn-warning">Send Message</button>
+    </div>
+  </form>
+</div>
+</div>
+
+
+<div id="Gallery">
+  <div class="gallery-heading">
+    <h1>Some Photos From <span> Our Restaurant</span></h1>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+  </div>
+  <div class="gallery-body">
+    <img src="/public/f4.jpg" width="300" height="250">
+    <img src="/public/f5.jpg" width="300" height="250">
+    <img src="/public/f6.jpg" width="300" height="250">
+    <img src="/public/f7.jpg" width="300" height="250">
+    <img src="/public/f8.jpg" width="300" height="250">
+    <img src="/public/f9.jpg" width="300" height="250">
+    <img src="/public/f4.jpg" width="300" height="250">
+    <img src="/public/f7.jpg" width="300" height="250">
+  </div>
+</div>
+          
+               
+<div id="Chefs">
+  <div class="chefs-heading">
+    <h1>Our Professional <span> Chefs</span></h1>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+  </div>
+  <div class="chefs-body">
+    <div class="chef-details">
+      <img src="/public/c1.jpg" height="250" width="350">
+      <img src="/public/c2.jpg" height="250" width="350">
+      <img src="/public/c3.jpg" height="250" width="350">
+     </div>
+     <div class="chefsss">
+      <div class="chef-info">
+        <h1>Walter White</h1>
+        <hr>
+        <p>Master Chef</p>
+        <span class="bi bi-facebook"></span>
+        <span class="bi bi-whatsapp"></span>
+        <span class="bi bi-twitter"></span>
+      </div>
+      <div class="chef-info">
+        <h1>Walter White</h1>
+        <hr>
+        <p>Master Chef</p>
+        <span class="bi bi-facebook"></span>
+        <span class="bi bi-whatsapp"></span>
+        <span class="bi bi-twitter"></span>
+      </div>
+      <div class="chef-info">
+        <h1>Walter White</h1>
+        <hr>
+        <p>Master Chef</p>
+        <span class="bi bi-facebook"></span>
+        <span class="bi bi-whatsapp"></span>
+        <span class="bi bi-twitter"></span>
+      </div>
+      </div>
+      </div>
+ </div>
+  
+
+  <div class="extra">
+    <div class="shadeness">
+    <div class="carousel slide" id="extra-details"  data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000" >
+      <img src="/public/f5.jpg" width="150" height="100">
+      <h1>Sara Wilsson</h1>
+      <h6>Designer</h6>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis repellendus cumque voluptate eum nesciunt facere facilis alias sed ut?</p>
+    </div>
+    <div class="carousel-item active" data-bs-interval="1000" >
+      <img src="/public/f6.jpg" width="150" height="100">
+      <h1>Jeena Kargil</h1>
+      <h6>Store Owner</h6>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis repellendus cumque voluptate eum nesciunt facere facilis alias sed ut?</p>
+    </div>
+    <div class="carousel-item active" data-bs-interval="1000" >
+      <img src="/public/f7.jpg" width="150" height="100">
+      <h1>Matt Brandon</h1>
+      <h6>Freelancer</h6>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <span class="bi bi-star-fill"></span>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis repellendus cumque voluptate eum nesciunt facere facilis alias sed ut?</p>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<div id="Contact">
+  <div class="contact-heading">
+    <h1><Span>Contact</Span>Us</h1>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+  </div>
+  <div class="contact-body">
+    <div class="contact-img">
+    <img src="/public/map.png" class="d-block w-100">
+  </div>
+  <form>
+    <div class="contact-info">
+    <span><span class="bi bi-globe">
+      </span>Locations:
+      <h6>A108 Adam Street</h6>
+      <h6>New York, NY 535022</h6>
+    </span>
+    <span><span class="bi bi-watch">
+    </span>Open Hours:
+    <h6>Monday-Saturday:</h6>
+    <h6>11:00 AM - 2300 PM</h6>
+  </span>
+  <span><span class="bi bi-envelope"></span>Emails:
+  <h6>abc@gmail</h6>
+  <h6>abc@gmail</h6>
+</span>
+<span><span class="bi bi-phone">
+</span>Call:
+<h6>+1 5589 55488 51</h6>
+<h6>+1 5589 22475 14</h6>
+</span>
+</div>
+<div class="contact-name">
+  <span><input type="text" class="form-control" value="Your Name"></span>
+  <span><input type="text" class="form-control" value="Your Email"></span>
+</div>
+<div class="contact-subject">
+  <input type="text" class="form-control" value="Subjects">
+</div>
+<div class="contact-msg">
+  <textarea rows="5" cols="120">
+    Message
+  </textarea>
+</div>
+<div class="contact-button">
+  <button class="btn btn-warning">Send Message</button>
+</div>
+  </div>
+  </form>
+</div>
+
+
+<footer>
+  <h1>Delicious</h1>
+  <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat</p>
+  <span class="bi bi-facebook"></span>
+  <span class="bi bi-twitter"></span>
+  <span class="bi bi-whatsapp"></span>
+  <span class="bi bi-linkedin"></span>
+  <h5>© Copyright Delicious. All Rights Reserved</h5>
+  <h6>Designed by<span>BootstrapMade</span>
+ 
+</footer>
+
+
+
+        </main>
+    </section>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
